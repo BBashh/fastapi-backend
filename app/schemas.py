@@ -62,5 +62,3 @@ class TokenData(BaseModel):
 class Vote(BaseModel):
     post_id: int
     vote_dir: int  # 1 means like, 0 means unlike
-
-

@@ -86,12 +86,3 @@ def update_post(id:int, post: schemas.PostCreate, db: Session = Depends(get_db),
     db.commit()
     # return {"data": post_query.first()}
     return post_query.first()
-
-
-
-
-
-
-
-
-
